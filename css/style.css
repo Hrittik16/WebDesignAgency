@@ -18,7 +18,7 @@ body {
     overflow: hidded; /* If something goes outside of div class it will hide it */
 }
 
-header ul {
+ul {
     margin: 0;
     padding: 0;
 }
@@ -65,4 +65,18 @@ header .highlight, header .current a {
 header a:hover {
     color: #cccccc;
     font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px; /* 0 moves the image in x-axis, and -400px moves the image in y-axis(upward)*/
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
 }
